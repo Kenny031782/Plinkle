@@ -192,6 +192,8 @@ GameObject:
   - component: {fileID: 113308833}
   - component: {fileID: 113308832}
   - component: {fileID: 113308834}
+  - component: {fileID: 113308835}
+  - component: {fileID: 113308836}
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -285,6 +287,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 851412763d6b04574a66c106053c8cac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MouseFacer
+--- !u!114 &113308835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113308831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da84b8e117ed04fd6a091057cb417b07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MouseLauncher
+  Launcher: {fileID: 113308836}
+--- !u!114 &113308836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113308831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b31ebcb8b950f4499a2bb3b37aff9f82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Launcher
+  ProjectilePrefab: {fileID: 7502869456461991568, guid: fff721cb9733a4e3cb890884ed6a5096, type: 3}
 --- !u!1 &160601584
 GameObject:
   m_ObjectHideFlags: 0

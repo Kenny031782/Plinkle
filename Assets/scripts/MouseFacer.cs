@@ -17,10 +17,10 @@ public class MouseFacer : MonoBehaviour
 
     private float ConstrainAngle(float angle)
     {
-        if (angle > 70f)
-            angle = 70f;
-        if (angle < -70f)
-            angle = -70f;
+        if (angle > 72f)
+            angle = 72f;
+        if (angle < -72f)
+            angle = -72f;
         return angle;
     }
 
