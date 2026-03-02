@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class MouseLauncher : MonoBehaviour
 {
    public Launcher Launcher;
+   public Sounds Sounds;
    
     void Update()
     {
@@ -24,7 +25,8 @@ public class MouseLauncher : MonoBehaviour
     {
         // figure out direction to aim
         Vector2 aimDirection = GetAimDirection();
-        
+
+        Sounds.PlayCannonSound();
         // launch in that direction
         Launcher.Launch(aimDirection);
     }
