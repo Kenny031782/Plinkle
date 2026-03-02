@@ -7,6 +7,9 @@ public class MouseFacer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Mouse.current == null)
+            return;
+        
         // what angle do we need to rotate toward
         float angle = GetAngle();
 
