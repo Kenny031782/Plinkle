@@ -7,7 +7,6 @@ public static class ScoreKeeper
     public static void Add(int amount)
     {
         score += amount;
-        MonoBehaviour.print(score);
     }
     // tell us what the score is
     public static int GetScore()
