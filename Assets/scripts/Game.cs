@@ -9,11 +9,13 @@ public class Game : MonoBehaviour
     public void Start()
     {
         Ui.ShowStartScreen();
+        Ui.HideGui();
     }
     
     public void OnStartButtonClick()
     {
         Ui.HideStartScreen();
+        Ui.ShowGui();
         isGameStarted = true;
     }
 

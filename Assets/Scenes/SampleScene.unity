@@ -865,6 +865,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UI
   ScoreText: {fileID: 49210061}
   StartMenuCanvasGroup: {fileID: 457283915}
+  GuiCanvasGroup: {fileID: 1412296686}
 --- !u!4 &205665835
 Transform:
   m_ObjectHideFlags: 0
@@ -1545,7 +1546,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &457283912
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3959,6 +3960,7 @@ GameObject:
   - component: {fileID: 1412296683}
   - component: {fileID: 1412296685}
   - component: {fileID: 1412296684}
+  - component: {fileID: 1412296686}
   m_Layer: 5
   m_Name: Panel-GUI
   m_TagString: Untagged
@@ -4024,6 +4026,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1412296682}
   m_CullTransparentMesh: 1
+--- !u!225 &1412296686
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412296682}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!4 &1429519899 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6859085399826694590, guid: f5d901b5d36a04e38b8ab55fba0be651, type: 3}

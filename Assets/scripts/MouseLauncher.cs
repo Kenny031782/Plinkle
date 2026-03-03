@@ -13,6 +13,9 @@ public class MouseLauncher : MonoBehaviour
         if (Mouse.current == null)
             return;
         
+        if (Ball.IsBallInPlay())
+            return;
+        
         // if the mouse is clicked 
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
